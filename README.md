@@ -3,10 +3,7 @@
 A production-grade AWS infrastructure project featuring a custom Virtual Private Cloud (VPC), isolated private subnets for web servers, an Auto Scaling Group (ASG) for dynamic scaling, and an Application Load Balancer (ALB) to smoothly distribute incoming internet traffic.
 
 _________________________________________________________________________________________________________________
-
-VPC-Three-Tier-Architecture
-(https://github.com/rakeshjha33/aws-three-tier-vpc/blob/main/vpc-example-private-subnets.png)
-
+![VPC-3Tier-Architecture](https://github.com/rakeshjha33/aws-three-tier-vpc/blob/main/vpc-example-private-subnets.png)
 _________________________________________________________________________________________________________________
 
 ---
@@ -145,6 +142,6 @@ Load Balancer
 *The final landing page delivered securely across the custom VPC network infrastructure layout.*
 ![Live Web Page Landing:Version-1](https://github.com/rakeshjha33/aws-three-tier-vpc/blob/main/project-images/home1.png)
 
-![Live Web Page Landing:Version-1] (https://github.com/rakeshjha33/aws-three-tier-vpc/blob/main/project-images/home2.png).
+![Live Web Page Landing:Version-2](https://github.com/rakeshjha33/aws-three-tier-vpc/blob/main/project-images/home2.png)
 
    

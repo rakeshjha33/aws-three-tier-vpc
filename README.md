@@ -131,8 +131,7 @@ Here is a look at the live architecture running smoothly on AWS:
 *Shows 3 running instances (2 backend web servers + 1 Bastion Host) managed by 1 Auto Scaling group and 1 Load Balancer.*
 ![AWS EC2 Resources](https://github.com/rakeshjha33/aws-three-tier-vpc/blob/main/project-images/ec2-dashboard.png)
 
-Load Balancer
-(https://github.com/rakeshjha33/aws-three-tier-vpc/blob/main/project-images/health-load-balancer.png)
+![Load-balancers](https://github.com/rakeshjha33/aws-three-tier-vpc/blob/main/project-images/health-load-balancer.png)
 
 ### 2. Successful Traffic Handling (HTTP 200 Logs)
 *A look inside the isolated server logs showing successful `HTTP 200 OK` connection streams flowing from the Application Load Balancer.*

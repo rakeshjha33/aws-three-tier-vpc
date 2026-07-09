@@ -2,6 +2,13 @@
 
 A production-grade AWS infrastructure project featuring a custom Virtual Private Cloud (VPC), isolated private subnets for web servers, an Auto Scaling Group (ASG) for dynamic scaling, and an Application Load Balancer (ALB) to smoothly distribute incoming internet traffic.
 
+_________________________________________________________________________________________________________________
+
+VPC-Three-Tier-Architecture
+(https://github.com/rakeshjha33/aws-three-tier-vpc/blob/main/vpc-example-private-subnets.png)
+
+_________________________________________________________________________________________________________________
+
 ---
 
 ## 🛠️ The Architecture at a Glance
@@ -117,5 +124,27 @@ Step 6: Create the Traffic Traffic Director (Application Load Balancer)
 4. Hit refresh a few times! You will notice the load balancer seamlessly balancing your clicks, taking you to Server 1 on one refresh and Server 2 on the next.
 
 5. You've officially successfully run a highly secure, scaled multi-AZ cloud application infrastructure layout!
+
+
+## 📸 Project Live Demonstration
+
+Here is a look at the live architecture running smoothly on AWS:
+
+### 1. The Active AWS Resources (Sydney Region)
+*Shows 3 running instances (2 backend web servers + 1 Bastion Host) managed by 1 Auto Scaling group and 1 Load Balancer.*
+![AWS EC2 Resources](https://github.com/rakeshjha33/aws-three-tier-vpc/blob/main/project-images/ec2-dashboard.png)
+
+Load Balancer
+(https://github.com/rakeshjha33/aws-three-tier-vpc/blob/main/project-images/health-load-balancer.png)
+
+### 2. Successful Traffic Handling (HTTP 200 Logs)
+*A look inside the isolated server logs showing successful `HTTP 200 OK` connection streams flowing from the Application Load Balancer.*
+![Python Server Traffic Logs](https://github.com/rakeshjha33/aws-three-tier-vpc/blob/main/project-images/server%20launch.png)
+
+### 3. The Final Static Web Page View
+*The final landing page delivered securely across the custom VPC network infrastructure layout.*
+![Live Web Page Landing:Version-1](https://github.com/rakeshjha33/aws-three-tier-vpc/blob/main/project-images/home1.png)
+
+![Live Web Page Landing:Version-1] (https://github.com/rakeshjha33/aws-three-tier-vpc/blob/main/project-images/home2.png).
 
    
